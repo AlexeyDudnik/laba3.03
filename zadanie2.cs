@@ -60,9 +60,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Car car1 = new Car("Toyota Camry", "V6", 220);
-        Car car2 = new Car("Honda Civic", "Inline-4", 200);
-        Car car3 = new Car("Ford Mustang", "V8", 250);
+        Car car1 = new Car("Toyota", "V6", 220);
+        Car car2 = new Car("BMW", "V8", 200);
+        Car car3 = new Car("Ford", "V8", 250);
         CarsCatalog catalog = new CarsCatalog();
         catalog.AddCar(car1);
         catalog.AddCar(car2);
